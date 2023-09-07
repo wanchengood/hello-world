@@ -1,6 +1,7 @@
 public class ProjectResourceInfo {
 
     private String projectId;
+    private String newField;
     private String parentId;
     private int ckioskMode;
     private DeviceManagementDTO deviceManagementDTO;
@@ -49,6 +50,14 @@ public class ProjectResourceInfo {
 
     public void setProjectId(String projectId) {
         this.projectId = projectId;
+    }
+
+    public String getNewFeild() {
+        return newField;
+    }
+
+    public void setNewFeild(String newField) {
+        this.newField = newField;
     }
 
     public int getCkioskMode() {
